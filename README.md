@@ -1,6 +1,19 @@
-# ShareSpeaker
+# ShareSpeaker — Bluetooth Audio Sharing for Windows + WSL
 
-A Windows desktop Bluetooth audio hub with a WSL audio backend. Receive music from a phone and forward it to selected Bluetooth speakers, with independent volume and delay controls.
+Play phone audio through **multiple Bluetooth speakers** using a Windows desktop app and a WSL audio backend. ShareSpeaker receives Bluetooth audio from your phone and sends it to selected speakers, with independent volume and delay controls.
+
+Use it as a **Bluetooth audio splitter** or speaker hub when you want to share one phone's music across several speakers. It uses BlueZ and PipeWire in WSL, with a Windows interface for pairing, playback and device management.
+
+## Features
+
+- **Multiple Bluetooth speaker outputs:** select which paired speakers receive the phone audio.
+- **Per-speaker volume and delay:** adjust each speaker independently and apply changes without rebuilding unaffected routes.
+- **Bluetooth device naming:** give phones and speakers friendly names and customize adapter names shown during pairing.
+- **One or two Bluetooth adapters:** share one adapter, or separate phone input from speaker output.
+- **Local test audio and recovery:** check speakers without a phone and recover a silent phone input.
+- **Private local settings:** no application log files, activity history or telemetry.
+
+Simultaneous speaker connections depend on your Bluetooth hardware. Delay controls help compensate for different speaker latencies; precise acoustic synchronization and dropout-free playback are not guaranteed. This app receives phone Bluetooth audio; it does not capture Windows system audio.
 
 ## Requirements
 

@@ -2,7 +2,9 @@
 
 Suggested repository name: **sharespeaker**.
 
-Suggested description: **Share phone audio across Bluetooth speakers with independent volume and delay controls on Windows and WSL.**
+Suggested description: **Play phone audio through multiple Bluetooth speakers on Windows + WSL. Bluetooth audio sharing with per-speaker volume, delay controls and device naming.**
+
+Suggested topics: `bluetooth`, `bluetooth-audio`, `bluetooth-speakers`, `multi-speaker`, `audio-routing`, `windows`, `wsl`, `pipewire`, `bluez`, `python`, `powershell`.
 
 ## Prepare a clean repository
 

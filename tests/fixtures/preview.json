@@ -1,0 +1,95 @@
+{
+  "ok": true,
+  "data": {
+    "controller": {
+      "available": true,
+      "path": "/org/bluez/hci0",
+      "mac": "02:00:00:00:00:31",
+      "powered": true,
+      "name": "ShareSpeaker",
+      "usbId": "8087:0026",
+      "originalName": "Example Bluetooth adapter"
+    },
+    "inputController": {
+      "available": true,
+      "path": "/org/bluez/hci0",
+      "mac": "02:00:00:00:00:31",
+      "powered": true,
+      "name": "ShareSpeaker",
+      "usbId": "8087:0026",
+      "originalName": "Example Bluetooth adapter"
+    },
+    "splitAdapters": false,
+    "serverReady": true,
+    "serverError": "",
+    "discovering": false,
+    "devices": [
+      {
+        "mac": "02:00:00:00:00:10",
+        "name": "Example phone",
+        "role": "input",
+        "adapterRole": "shared",
+        "paired": true,
+        "trusted": true,
+        "connected": true,
+        "ready": true,
+        "status": "Audio ready",
+        "phoneVolume": 50,
+        "inputGain": 12,
+        "originalName": "Example phone"
+      },
+      {
+        "mac": "02:00:00:00:00:21",
+        "name": "Bose Color II SoundLink",
+        "role": "output",
+        "adapterRole": "shared",
+        "paired": true,
+        "trusted": true,
+        "connected": true,
+        "ready": true,
+        "status": "Audio ready",
+        "sink": "bluez_output.02_00_00_00_00_21.1",
+        "originalName": "Bose Color II SoundLink"
+      },
+      {
+        "mac": "02:00:00:00:00:22",
+        "name": "Example speaker",
+        "role": "output",
+        "adapterRole": "shared",
+        "paired": true,
+        "trusted": true,
+        "connected": true,
+        "ready": true,
+        "status": "Audio ready",
+        "sink": "bluez_output.02_00_00_00_00_22.1",
+        "originalName": "Example speaker"
+      }
+    ],
+    "route": {
+      "target": "snoopy_hub_bus_example",
+      "source": "phone:02:00:00:00:00:10",
+      "outputs": [
+        {
+          "mac": "02:00:00:00:00:21",
+          "sink": "bluez_output.02_00_00_00_00_21.1",
+          "volume": 60,
+          "delay": 100
+        },
+        {
+          "mac": "02:00:00:00:00:22",
+          "sink": "bluez_output.02_00_00_00_00_22.1",
+          "volume": 50,
+          "delay": 200
+        }
+      ],
+      "updated": 1,
+      "paused": false,
+      "healthy": true,
+      "waitingInput": false,
+      "inputProblem": false
+    },
+    "cardCount": 3,
+    "sinkCount": 3
+  },
+  "message": ""
+}

@@ -1,0 +1,22 @@
+.gitattributes
+.gitignore
+Start ShareSpeaker.cmd
+README.md
+CHANGELOG.md
+hub-settings.example.json
+release-files.txt
+src/HubWindow.ps1
+src/hub_backend.py
+src/hub_discovery.py
+src/hub_test_audio.py
+tests/test_hub_backend.py
+tests/test_hardware_selector.ps1
+tests/check_ui.ps1
+tests/test_release.py
+tests/fixtures/preview.json
+scripts/build_release.py
+scripts/prepare_github.py
+docs/GITHUB.md
+docs/ARCHITECTURE.md
+docs/TESTING.md
+docs/PRIVACY.md
